@@ -1,4 +1,4 @@
-FROM gerencio/serf
+FROM gerencio/docker-serf
 MAINTAINER Gerencio
 
 RUN yum install -y dnsmasq
