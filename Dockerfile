@@ -1,5 +1,5 @@
-FROM sequenceiq/serf
-MAINTAINER SequenceIQ
+FROM gerencio/serf
+MAINTAINER Gerencio
 
 RUN yum install -y dnsmasq
 ADD config /etc
